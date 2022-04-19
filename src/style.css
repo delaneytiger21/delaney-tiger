@@ -1,24 +1,111 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Kaisei Decol', serif;
+    font-family: 'Shippori Mincho', serif;
+    font-family: 'Uchen', serif;
+}
 
 .hero {
     background-color: #7da3b4;
-    text-align: center;
     color: white;
+    text-align: center;
+    padding: 150px 20px;
 }
-.hero p {
-    font-size: 26px;
-}
-.hero h1 {
+h1 {
     font-size: 96px;
+    letter-spacing: 7px;
 }
-.hero h2 {
-    font-size: 24px;
+h3 {
+    font-size: 34px;
+    line-height: 2;
+    letter-spacing: 3px;
 }
 .hero a {
-    color: white;
+    font-size: 20px;
     text-decoration: none;
-    padding: 10px;
-    margin: 0px 10px 0px 0px;
+    letter-spacing: 2px;
+    color: #688ea0;
+    background-color: white;
+    margin: 30px 30px;
+    padding: 10px 25px;
+    border-radius: 7px;
 }
+.hero a:hover {
+    background-color:#688ea0;
+    color: white;
+}
+
+
+.container {
+    margin: 100px auto;
+    max-width: 80%;
+}
+.project-image {
+    display: flex;
+    justify-content:space-evenly;
+}
+img {
+    margin: 25px 0px 25px 0px;
+    height: 560px;
+    width: 560px;
+}
+.description {
+    padding: 0px 45px;
+    color: #7da3b4;
+}
+h2 {
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+p {
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.description a {
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #7da3b4;
+}
+.description a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #7da3b4;
+    letter-spacing: 1.5px;
+  }
+  footer a { 
+    color: #7da3b4;
+    text-decoration: none;
+  }
+
 
 
 
