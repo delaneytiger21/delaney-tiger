@@ -1,86 +1,125 @@
+:root {
+  --background-color: #7da3b4;
+}
 body {
   font-family: 'EB Garamond', serif;
   font-family: 'Kaisei Decol', serif;
   font-family: 'Shippori Mincho', serif;
   font-family: 'Uchen', serif;
-  background: #8e9eab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
-.hero {
-  background-color: #7da3b4;
-  color: white;
-	text-align: center;
-  padding: 600px 20px;
-	margin-bottom: 80px;
+
+#homepage {
+  background-color: var(--background-color);
+  color:white;
+  text-align: center;
 }
-h1 {
-  font-size: 96px;
-  line-height: 1.5;
+.home h1 {
+  font-size: 90px;
   letter-spacing: 9px;
+  margin-bottom: 20px;
 }
-.hero h2 {
-	color: white;
-  font-size: 40px;
-	font-weight: normal;
-  line-height: 2;
+.home h3 {
+  font-size: 35px;
   letter-spacing: 5px;
+  margin-bottom: 50px;
 }
-.hero a {
-  font-size: 20px;
+.home a {
   text-decoration: none;
-  letter-spacing: 4px;
-  color: #688ea0;
-  background-color: white;
-  margin: 30px 30px;
-  padding: 10px 25px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  background-color:white;
+  color: var(--background-color);
+  margin: 20px 20px;
+  padding: 7px 18px;
   border-radius: 7px;
 }
-.hero a:hover {
+.home a:hover {
   background-color:#688ea0;
   color: white;
 }
-
-
-img {
-  height: 560px;
-  width: 560px;
-}
-h2 {
-	color: #688ea0;
-  font-size: 54px;
-	letter-spacing: 4px;
-}
-p {
-  font-size: 25px;
-  line-height: 1.5;
-	letter-spacing: 2px;
-}
-.description a {
-  font-size: 20px;
-  text-decoration: none;
-  letter-spacing: 2px;
-  color: #7da3b4;
-}
-.description a:hover {
-  text-decoration: underline;
-}
-
-
-footer {
+#homepage footer {
   text-align: center;
   font-size: 13px;
-  color: #7da3b4;
+  color: white;
   letter-spacing: 1.5px;
 	padding: 10px;
+  margin-top: 20px;
 }
-footer a { 
-  color: #7da3b4;
+#homepage footer a { 
+  color: white;
   text-decoration: none;
 }
+#homepage footer a:hover {
+  color:#688ea0;
+}
 
+
+
+
+.hero {
+  background-color: #688ea0;
+  text-align: center;
+  max-width: 100%;
+}
+.hero a {
+  text-decoration: none;
+  color: #E5E5E5;
+  font-size: 20px;
+}
+.hero a:hover {
+  color: white;
+}
+
+
+
+
+
+#about {
+  color: #688ea0;
+}
+#about h1 {
+  font-size: 88px;
+  text-align: center;
+}
+.content-container {
+  padding: 60px 20px;
+}
+.delaney {
+  border-radius: 10px;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+}
+.content {
+  letter-spacing: 1.5px;
+}
+.skills-section {
+  letter-spacing: 2px;
+}
+.certification-section {
+  max-width: 100%;
+  height: auto;
+  letter-spacing: 2px;
+}
+#about footer {
+  color: #7da3b4;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+#about footer a {
+  color: #7da3b4;
+}
+
+
+
+
+
+
+
+
+/* 
 
 @media (max-width: 900px) {
 	.hero {
@@ -100,7 +139,7 @@ footer a {
     text-decoration: none;
     letter-spacing: 2px;
     color: #688ea0;
-    background-color: white;
+    background-color: #E5E5E5;
     margin: auto 5px;
     padding: 9px;
   }
@@ -121,9 +160,7 @@ footer a {
 	}
 }
 
-
-
-
+ */
 
 
 
