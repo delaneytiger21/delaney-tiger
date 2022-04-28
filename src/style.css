@@ -154,17 +154,12 @@ body {
   color: #7da3b4;
 }
 
+.project-link {
+text-decoration: none;
+  color: #688ea0;
+  margin: 20px  
 
-
-
-.padding-top {
-  padding-top: 15px;
 }
-.p-projects {
-  text-align: center;
-  line-height: 10px;
-}
-
 
 
 
