@@ -81,8 +81,9 @@ body {
 #about h1 {
   font-size: 88px;
   text-align: center;
+  letter-spacing: 1.5px;
 }
-.content-container {
+.about-section {
   padding: 60px 20px;
 }
 .delaney {
@@ -112,6 +113,57 @@ body {
   color: #7da3b4;
 }
 
+
+
+
+
+
+#projects {
+  color: #688ea0;
+}
+
+#projects h1 {
+  font-size: 88px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+
+
+
+.landing-page {
+  display: flex;
+  margin: 0 auto;
+  height: 500px;
+}
+  
+ .weather-app{ 
+  display: flex;
+  margin: 0 auto;
+  height: 500px;
+}
+
+
+#projects footer {
+  color: #7da3b4;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+#projects footer a {
+  color: #7da3b4;
+}
+
+
+
+
+.padding-top {
+  padding-top: 15px;
+}
+.p-projects {
+  text-align: center;
+  line-height: 10px;
+}
 
 
 
