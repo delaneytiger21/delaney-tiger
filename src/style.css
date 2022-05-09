@@ -71,7 +71,6 @@ footer a:hover {
 #about {
   color: #688ea0;
 }
-
 .about-section {
   padding: 60px 60px 0px 60px;
 }
@@ -82,6 +81,10 @@ footer a:hover {
   border-radius: 10px;
   height: 500px;
   margin: 0 auto;
+}
+
+.about-content {
+  margin: 50px auto;
 }
 .certification-section {
   max-width: 100%;
