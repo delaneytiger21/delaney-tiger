@@ -5,6 +5,7 @@ body {
   font-family: 'Uchen', serif;
 }
 
+
 nav {
   background-color: #688ea0;
   position: fixed;
@@ -19,10 +20,13 @@ nav a:hover {
   color: white;
 }
 
+
 h1 {
   font-size: 88px;
-  margin-top: 140px;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
+
 
 footer a {
   color: #7da3b4;
@@ -31,8 +35,8 @@ footer a {
 footer a:hover {
   color:#688ea0;
   text-decoration: underline;
-  
 }
+
 
 
 #home {
@@ -68,61 +72,42 @@ footer a:hover {
 }
 
 
-#about {
-  color: #688ea0;
-}
-.about-section {
-  padding: 60px 60px 0px 60px;
-}
-.about-section a {
-  color: #688ea0;
-}
-.delaney {
-  border-radius: 10px;
-  height: 500px;
-  margin: 0 auto;
-}
 
 .about-content {
-  margin: 50px auto;
+  margin: 30px auto;
 }
-.certification-section {
-  max-width: 100%;
-  height: auto;
-}
-
-
-#contact {
+.about-content a {
   color: #688ea0;
+  text-decoration: none;
 }
+.icon-big {
+  font-size: 70px;
+}
+.certifications {
+  padding: 0px 200px 0px 200px;
+}
+
+
+
 .contact-container {
   background-color: #688ea0;
-  color: #E5E5E5;
-  border-radius: 6px;
+  border-radius: 5px;
   max-width: 550px;
-  margin: 100px auto;
+  margin-bottom: 50px;
+  padding: 0;
 }
 .contact-container a {
   color: #E5E5E5;
 }
 .contact-container a:hover {
-color: white;
-}
-.icon-big {
-  font-size: 75px;
+  color: white;
 }
 
 
-#projects {
-  color: #688ea0;
-}
+
 .project-page {
-  display: flex;
   margin: 0 auto;
-  height: 500px;
-}
-.content-container {
-  margin: 100px auto;
+  height: 475px;
 }
 .project-link {
   text-decoration: none;
@@ -132,6 +117,18 @@ color: white;
 
 
 
+.content{
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+
+
+
+.photo {
+  border-radius: 100%;
+  height: 600px;
+}
 
 
 
