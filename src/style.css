@@ -29,7 +29,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
-
+.hero {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  color: #688ea0;
+  letter-spacing: 1.5px;
+}
 
 .home {
   max-width: 800px;
@@ -59,27 +65,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
-
-
-.about {
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
-  color: #688ea0;
-  letter-spacing: 1.5px;
-}
-.icon-big {
-  font-size: 70px;
-}
-
-
-
 .contact {
   background-color: #688ea0;
   border-radius: 5px;
   max-width: 530px;
-  margin-bottom: 50px;
-  padding: 0;
 }
 .contact a {
   color: #E5E5E5;
@@ -88,15 +77,10 @@ footer a:hover {
   color: white;
 }
 
-
-
-.projects {
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
-  color: #688ea0;
-  letter-spacing: 1.5px;
+.icon-big {
+  font-size: 70px;
 }
+
 .project-page {
   margin: 0 auto;
   height: 450px;
@@ -106,17 +90,6 @@ footer a:hover {
   color: #688ea0;
   margin: 20px  
 }
-
-
-
-.testimonials {
-  max-width: 1100px;
-  margin: auto;
-  text-align: center;
-  color: #688ea0;
-  letter-spacing: 1.5px;
-}
-
 
 @media screen and (max-width: 600px) {
   h1 {
